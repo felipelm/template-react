@@ -18,7 +18,7 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <AppBar position="static">
         <Typography variant="h6" color="inherit">
-          AppBar
+          AppBar API {window._env_.API_URL}
         </Typography>
       </AppBar>
       <Button color="primary">Test Primary</Button>

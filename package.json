@@ -31,7 +31,8 @@
     "lint": "eslint .",
     "lint-fix": "eslint --fix .",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "dev": "chmod +x ./env.sh && ./env.sh && mv env-config.js ./public/ && react-scripts start"
   },
   "eslintConfig": {
     "extends": "react-app"
